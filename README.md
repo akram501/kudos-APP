@@ -9,6 +9,7 @@ This is the Django + DRF backend for the Kudos application.
 ✅ JWT Authentication (djangorestframework-simplejwt)  
 ✅ Common architecture for Response and Error Handling  
 ✅ Custom user model with organization  
+✅ Login with JWT  
 ✅ Give kudos to other users  
 ✅ List users in the same organization  
 ✅ See received kudos  
@@ -27,8 +28,8 @@ This is the Django + DRF backend for the Kudos application.
 
 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-repo/kudos-backend.git
-cd kudos-backend
+git clone https://github.com/akram501/kudos-APP.git
+cd kudos-APP
 ```
 
 2️⃣ Create virtual environment & activate
@@ -69,6 +70,8 @@ python manage.py runserver
 ## 🛡️ CORS
 
 Allowed for `http://localhost:3000` for React.
+
+## GIT
 
 Set .env variable usign .envexample file
 git user name : `akram501`
