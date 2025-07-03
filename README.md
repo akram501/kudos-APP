@@ -50,7 +50,7 @@ python manage.py migrate
 
 5️⃣ (Optional) Seed default data
 ```bash
-python manage.py seed
+python manage.py seed_data
 ```
 
 6️⃣ Run the development server
